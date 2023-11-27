@@ -8,9 +8,10 @@ const Dashboard = () => {
     setActiveTab(tab);
   };
   return (
-    <div className="container flex flex-col m-auto gap-5 pt-14">
-      <div className="rounded-xl w-full bg-d-blue">
-        <div className="bg-r-blue rounded-xl flex items-center p-5">
+    <div className="container flex flex-col md:flex-row m-auto gap-5 py-14 md:pt-32 justify-center">
+      <div className="rounded-xl w-full md:w-auto bg-d-blue">
+        {" "}
+        <div className="bg-r-blue rounded-xl flex md:flex-col items-center md:items-start p-5">
           <div>
             <img
               src={jeremy}
@@ -20,10 +21,10 @@ const Dashboard = () => {
           </div>
           <div>
             <p className="text-p-blue">Report for</p>
-            <h2 className="text-white text-xl">Jeremy Robson</h2>
+            <h2 className="text-white text-xl md:text-2xl">Jeremy Robson</h2>
           </div>
         </div>
-        <div className="flex justify-around px-5 py-3">
+        <div className="flex md:flex-col justify-around md:items-start gap-3 px-5 py-3">
           {["Daily", "Weekly", "Monthly"].map((tab, index) => (
             <button
               key={index}
@@ -40,7 +41,7 @@ const Dashboard = () => {
         </div>
       </div>
       <div>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col md:grid md:grid-cols-3 gap-5">
           {categories.map((item, index) => (
             <div key={index}>
               <Card

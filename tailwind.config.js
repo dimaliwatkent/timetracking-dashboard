@@ -10,6 +10,7 @@ export default {
       colors: {
         "vd-blue": "hsl(226, 43%, 10%)",
         "d-blue": "hsl(235, 46%, 20%)",
+        "h-blue": "hsl(235, 46%, 30%)",
         "vp-blue": "hsl(235, 45%, 61%)",
         "p-blue": "hsl(236, 100%, 87%)",
         "r-blue": "hsl(246, 80%, 60%)",
