@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://your-solution-url.com)
+- Solution URL: [GitHub](https://github.com/dimaliwatkent/timetracking-dashboard.git)
 - Live Site URL: [Timetracking Dashboard](https://time-tracking-dashboard-67d7b.web.app/)
 
 ## My process
